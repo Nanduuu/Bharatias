@@ -1,0 +1,33 @@
+.box {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-border {
+   border : 0px  coral solid;
+   border-left-width: 5px;
+}
+
+.child-margin > * {
+    margin: 10px;
+    width:100%;
+    display: block;
+    text-align: left;
+}
+
+
+
+  .head-text{
+      padding:5px;
+      background-color: #001930;
+      color: white;
+      line-height: 40px;
+  }
+
+  .head-text > *{
+      margin-bottom: 0px;
+  }
+  .scroll {
+      overflow-x: scroll!important;
+  }
